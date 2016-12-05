@@ -20,6 +20,7 @@ If you have a different version of LibreOffice installed this is going to mess u
 ## Usage
 After its been installed, right click a document or presentation you wish to convert to `.pdf` and select "Convert to PDF" from the bottom of the dropdown list.
 
+<img src="https://github.com/NateLehman/convert-to-pdf-service/raw/screenshots/usage.png" height=420>
 
 ## Acknowledgement
 I did **not** write the backend to this service. The only way this code is possible is because of [unoconv](https://github.com/dagwieers/unoconv), a project that does exactly what this service needs to do using LibreOffice. If you like what this does please send your appreciation that way.
