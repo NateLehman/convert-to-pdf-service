@@ -2,7 +2,7 @@
 A simple service that converts standard documents to pdf
 
 ## Requirements
-This service requires LibreOffice 4.3.7.2 and if you choose to use the installer it will install it to your `Applications` directory.
+This service requires LibreOffice 4.3.7.2 to be installed to the contents directory of the workflow. This is done if you run the install script. LibreOffice is about 1GB.
 
 ## Installation
 
@@ -22,11 +22,6 @@ Just download using the project from GitHub: click the green button and select d
 cd ~/Downloads/convert-to-pdf-service
 sh install.sh
 ```
-
-**NOTE**: This script will install LibreOffice 4.3.7.2 to your `Applications` directory, so be ready for that...
-
-## Conflicts
-If you have a different version of LibreOffice installed this is going to mess up stuff so don't try it. Uninstall it before running the install script.
 
 ## Usage
 After its been installed, right click a document or presentation you wish to convert to `.pdf` and select "Convert to PDF" from the bottom of the dropdown list.
