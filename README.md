@@ -17,5 +17,9 @@ sh install.sh
 ## Conflicts
 If you have a different version of LibreOffice installed this is going to mess up stuff so don't try it. Uninstall it before running the install script.
 
+## Usage
+After its been installed, right click a document or presentation you wish to convert to `.pdf` and select "Convert to PDF" from the bottom of the dropdown list.
+
+
 ## Acknowledgement
 I did **not** write the backend to this service. The only way this code is possible is because of [unoconv](https://github.com/dagwieers/unoconv), a project that does exactly what this service needs to do using LibreOffice. If you like what this does please send your appreciation that way.
