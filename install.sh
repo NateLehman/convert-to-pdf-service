@@ -7,4 +7,4 @@ cp -R $DIR/libremount/LibreOffice.app /Applications/
 hdiutil detach $DIR/libremount
 rm $DIR/LibreOffice_4.3.7.2_MacOS_x86-64.dmg
 
-cp $DIR/"Convert to PDF.workflow" $HOME/Library/Services/
+cp -R $DIR/"Convert to PDF.workflow" $HOME/Library/Services/
