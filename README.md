@@ -1,5 +1,5 @@
 # Convert to PDF Automator service
-A simple service that converts standard documents to pdf
+Adds converting files to PDF from the context menu in Finder.
 
 ## Requirements
 This service requires LibreOffice 4.3.7.2 to be installed to the contents directory of the workflow. This is done if you run the install script. LibreOffice is about 1GB.
