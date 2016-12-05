@@ -248,7 +248,7 @@ fi
 
 for f in "$@"
 do
-	$HOME/Library/Services/Convert\ to\ PDF.workflow/Contents/unoconv -f pdf "$f"
+	$HOME/Library/Services/Convert\ to\ PDF.workflow/Contents/LibreOffice.app/Contents/MacOS/python $HOME/Library/Services/Convert\ to\ PDF.workflow/Contents/unoconv -f pdf "$f"
 done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
