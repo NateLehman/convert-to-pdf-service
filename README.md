@@ -19,7 +19,7 @@ sh install.sh
 ### Without Xcode
 Just download using the project from GitHub: click the green button and select download `.zip` file. Then open `Terminal.app` and paste the following:
 ```bash
-cd ~/Downloads/convert-to-pdf-service
+cd ~/Downloads/convert-to-pdf-service-master
 sh install.sh
 ```
 
